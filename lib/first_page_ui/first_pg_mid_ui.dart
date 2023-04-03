@@ -23,6 +23,7 @@ class _First_pg_mid_UIState extends State<First_pg_mid_UI> {
               childAspectRatio: 1),
           shrinkWrap: true,
           itemBuilder: (context, index) => Card(
+            elevation: 20,
                   child: Column(
 
                 crossAxisAlignment: CrossAxisAlignment.center,
